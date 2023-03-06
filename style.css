@@ -4,14 +4,11 @@ body {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
-header {}
-
 header .desktop {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 24px;
-    /* width: 1720px; */
     height: 72px;
 }
 
@@ -27,7 +24,6 @@ aside {
     width: 280px;
     margin-top: 24px;
     margin-right: 36px;
-
 }
 
 section {
@@ -35,9 +31,7 @@ section {
 }
 
 .logo {
-
     height: 19px;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -45,8 +39,6 @@ section {
     align-items: center;
     text-align: center;
     color: #000000;
-
-
 }
 
 .logo img {
@@ -57,7 +49,6 @@ section {
 .catalog {
     width: 104px;
     height: 48px;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     background: #FFFFFF;
@@ -73,17 +64,13 @@ section {
     align-items: center;
     padding: 4px 16px;
     gap: 8px;
-    /* width: 994px; */
     flex: 1;
     height: 38px;
     background: #FFFFFF;
     border: 1px solid #73AFF4;
     border-radius: 10px;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-
-
 }
 
 .search::placeholder {
@@ -91,43 +78,22 @@ section {
     text-transform: capitalize;
 }
 
-.typographyInf {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-    color: #393939;
-}
-
-.typographyCon {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-    color: #393939;
-}
-
+.typographyInf
+.typographyCon 
 .typographyRefs {
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
     color: #393939;
 }
 
 .categoryFilter {
+    padding: 0px;
+    width: 280px;
+    background: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
-    width: 280px;
-    /* height: 120px; */
-    /* Tech/white */
-    background: #FFFFFF;
-    /* Inside auto layout */
     flex: none;
     order: 0;
     align-self: stretch;
@@ -139,7 +105,6 @@ section {
     margin: 0;
     padding: 0;
     width: 100%;
-
 }
 
 .categoryFilter li {
@@ -183,7 +148,6 @@ section {
 .box1,
 .box2 {
     font-family: 'PT Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
@@ -205,7 +169,6 @@ section {
 
 .cost {
     font-family: 'PT Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
@@ -216,7 +179,6 @@ section {
 
 .attribute {
     font-family: 'PT Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
@@ -266,10 +228,8 @@ section {
     line-height: 14px;
 }
 
-
 .searchBrend {
     font-family: 'PT Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
@@ -281,9 +241,7 @@ section {
 }
 
 .clear {
-
     font-family: 'PT Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
@@ -292,9 +250,7 @@ section {
 }
 
 .size {
-
     font-family: 'PT Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
@@ -323,13 +279,11 @@ section {
 .product {
     display: grid;
     gap: 24px;
-    /* grid-template-rows: 1fr 1fr 1fr; */
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .describtion {
     font-family: 'PT Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
@@ -342,7 +296,6 @@ section {
 
 .brend {
     font-family: 'PT Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
@@ -354,7 +307,6 @@ section {
     width: 40px;
     height: 14px;
     font-family: 'PT Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
@@ -366,37 +318,36 @@ section {
 
 button.disabled {
     height: 38px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     font-family: 'PT Sans';
     font-weight: 700;
     font-size: 14px;
     line-height: 14px;
-    display: flex;
     color: #AAAAAA;
     box-sizing: border-box;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     padding: 12px 16px;
     gap: 4px;
     background: #FFFFFF;
     border: 1px solid #AAAAAA;
     border-radius: 4px;
     margin-top: 62px;
-    width: 100%;
+   
 }
 
 .buyButton {
     border: 1px solid #7397F5;
     border-radius: 4px;
     font-family: 'PT Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 14px;
     width: 75px;
     height: 38px;
     background: #FFFFFF;
-    display: flex;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -405,7 +356,6 @@ button.disabled {
 
 .newProductPrice {
     font-family: 'PT Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 14px;
@@ -418,11 +368,11 @@ button.disabled {
 }
 
 .productImg {
-    background-color: #F8F8FA;
-    display: flex;
-    background-image: url('Box.png');
     height: 200px;
+    background-color: #F8F8FA;
+    background-image: url('Box.png');
     background-position: center;
+    display: flex;
     background-repeat: no-repeat;
     flex-direction: column;
     justify-content: space-between;
@@ -436,7 +386,6 @@ button.disabled {
     width: 112px;
     height: 32px;
     margin: 12px 0px 0px 12px;
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
@@ -468,10 +417,8 @@ button.disabled {
     text-align: center;
     color: #FFFFFF;
     font-family: 'PT Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
-
 }
 
 @media (max-width: 376px) {
@@ -512,13 +459,11 @@ button.disabled {
         background: #7397F5;
         border-radius: 5px;
         font-family: 'PT Sans';
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 14px;
         color: #FFFFFF;
         border: none;
-
     }
     .requestInput {
         border: none;
@@ -527,12 +472,10 @@ button.disabled {
         opacity: 0.3;
         font-size: 20px;
     }
-
     .searchInput .requestInput {
         font-family: 'PT Sans', 'Material Symbols Outlined', Arial, Helvetica, sans-serif;
         flex: 1;
     }
-
     .searchInput .material-symbols-outlined.cancel {
         color: #CBCBCB;
         font-size: 16px;
@@ -542,10 +485,8 @@ button.disabled {
             'GRAD' 0,
             'opsz' 48
     }
-
     .mobileName {
         font-family: 'PT Sans';
-        font-style: normal;
         font-weight: 400;
         font-size: 22px;
         line-height: 28px;
@@ -553,5 +494,4 @@ button.disabled {
         display: flex;
         margin-left: 6px;
     }
-
 }
